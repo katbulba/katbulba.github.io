@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: linear-gradient(#261d1f, #463735);
+}
+.page{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 800px;
+	height: 400px;
+	background: white;
+
+}
+img{
+	position: relative;
+}
+.text{
+	position: absolute;
+	height: 150px;
+	width: 370px;
+	background: black;
+	bottom: 350px;
+	left: 350px;
+	font-size: 45px;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+	color: white;
+}
+p{
+	font-size: 20px;
+	padding-top: 5px;
+}
+span{
+	color: yellow;
+}
+.column-right{
+	float: right;
+}
+.title{
+	text-align: center;
+	padding: 20px;
+}
+.text_menu{
+	display: inline-block;
+
+}
+.name_left , .name_right{
+	display: inline-block;
+	text-align: center;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-left: 30px;
+}
+.price{
+	position: relative;
+	text-transform: uppercase;
+	border-bottom: 2px solid silver;
+	color: silver;
+	padding: 10px;
+}
+.price:after{
+	position: absolute;
+	content: " ";
+	display: block;
+	background: silver;
+	margin-left: 55px;
+	padding: 5px;
+	margin-top: 5px;
+	transform: rotate(45deg);
+}
+.michegan{
+	text-transform: uppercase;
+	padding: 10px;
+}
+.cheeseburger{
+	padding: 10px;
+}
+button {
+	text-transform: uppercase;
+	border: 2px solid black;
+	color: white;
+	display: inline-block;
+	float: right;
+	background: black;
+	margin-top: 30px;
+	padding: 10px;
+	transition: 0.7s;
+}
+button:hover{
+	background-color: yellow;
+	transition: 0.7s;
+}
