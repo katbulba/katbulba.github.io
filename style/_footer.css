@@ -1,0 +1,22 @@
+
+.footer {
+	display: flex;
+	margin-top: 50px;
+	padding: 20px;
+}
+.content-wrap {
+	flex-direction: column;
+}
+.copyright {
+	margin-top: 50px;
+
+}
+
+@media (min-width: 1200px) {
+	.footer {
+	display: flex;
+	}
+	.content-wrap {
+	flex-direction: row;
+	}
+}

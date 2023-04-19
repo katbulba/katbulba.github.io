@@ -1,0 +1,33 @@
+.saving-intro {
+	display: flex;
+	flex-direction: column;
+}
+.section-title{
+	margin-top: 30px;
+	text-align: center;
+}
+input[type=text]{
+	border: 2px solid;
+	border-radius: 6px;
+	color: gray;
+	padding: 15px;
+	margin-top: 10px;
+}
+input[type=submit]{
+	border: 2px solid;
+	border-radius: 6px;
+	color: white;
+	background-color: rgba(237, 76, 92, 1);
+	padding: 15px;
+	margin-top: 15px;
+}
+
+form {
+	margin-top: 20px;
+	text-align: center;
+}
+@media (min-width: 1200px){
+	.saving-intro .content-wrap{
+		flex-direction: row;
+	}
+}
