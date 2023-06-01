@@ -1,0 +1,546 @@
+
+
+/*HEADER*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.page-wrap {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.content-wrap {
+	padding: 0 16px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
+.hide {
+	display: none !important;
+}
+.page-header {
+	flex-direction: column;
+	min-height: 1210px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+	url('../img/font.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.top-bar {
+	padding-top: 30px;
+}
+.logo-img {
+	padding-left: 16px;
+	padding-right: 3.9px;
+}
+.logo .logo-title {
+	font-family:'Rubik', sans-serif;
+	color: white;
+	font-size: 25px;
+}
+.menu-icon {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.menu-icon i {
+	font-size: 2rem;
+	color: white;
+}
+
+.menu-mobile {
+	position: relative;
+}
+
+.burger-menu {
+	position: absolute;
+	right: 0;
+	top: -9999px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	width: 100vw;
+	
+}
+.show-menu {
+	top: 50px;
+	text-align: center;
+}
+ .main-menu{
+ 	font-family:'Rubik', sans-serif;
+ 	font-weight: 400;
+	color: black;
+	line-height: 1em;
+	text-transform: uppercase;
+	font-size: 25px;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+}
+.main-menu a {
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+
+}
+.main-menu li {
+	border: 1px double white;
+	margin: 20px 0;
+	background-color: white; 
+	padding: 10px;
+}
+.btn__login {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding: 36px;
+
+}
+
+.btn__Sign {
+	width: 127px;
+	height: 56px;
+	text-align: center;
+	padding: 16px 24px;
+	background-color: rgba(255, 118, 84, 1);
+	color: white;
+	border-radius: 12px;
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.page-header-content .title{
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-size: 40px;
+	padding-top: 198px;
+	padding-bottom: 26px;
+	color: white;
+	
+}
+.page-header-content .subtitle{
+	font-family:'Rubik', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	line-height: 21px;
+}
+.form-header {
+	
+}
+
+
+/*SECTION POPULAR DESTINATIONS*/
+
+.section-title {
+	flex-direction: row;
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-size: 40px;
+	color: black;
+	margin-top: 80px;
+	border-bottom: 3px solid rgba(255, 119, 87, 1);
+	padding-bottom: 20px;
+	min-width: 227px;
+	
+	
+}
+.section-text {
+	flex-direction: row;
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	color: rgba(118, 126, 134, 1);
+	padding-top: 32px;
+
+}
+.content-destinations {
+	width: 288px;
+	height: 320px;
+	border-radius: 16px;
+	background-image: linear-gradient(0deg, rgba(255, 119, 87, 0.1), rgba(255, 119, 87, 0.1)),
+					url('../img/92fe37.jpg');
+	background-size: cover;
+	background-position: center;
+	margin-top: 100px;
+}
+.content-text {
+	padding: 207px 20px 18px 20px;
+	color: white;
+	font-family: 'Playfair Display';
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 31,99px;
+}
+.content-location {
+
+	padding-bottom: 41,5px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+.country {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21,33px;
+	color: white;
+	padding-bottom: 41,5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.buttons {
+
+	padding: 100px 34px 80px 54px;
+} 
+.buttons img {
+	padding-right: 40px;
+	text-align: center;
+}
+
+/*SECTION SPECIAL OFFER*/
+
+.content-foto {
+	flex-direction: column;
+	width: 288px;
+	height: 286px;
+	background-image: url('../img/Image Container.png');
+	margin-top: 60px;
+}
+.content-offer {
+	background-color: rgba(255, 248, 241, 1);
+	border-bottom-left-radius: 26px;
+	border-bottom-right-radius: 26px;
+}
+.offer-title {
+	font-family: 'Mulish', sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	color: rgba(118, 126, 134, 1);
+	padding: 20px 36px 10px 36px;
+}
+.offer-star {
+	padding-left: 38px;
+}
+.offer-star img {
+	padding-right: 8px ;
+}
+.offer-text {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 27px 20px 24px 20px;
+}
+.blog .section-text {
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.section-text span {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	color: rgba(255, 119, 87, 1);
+	padding-left: 8px;
+
+}
+
+/*SECTION BLOG*/
+
+.blog-foto {
+	font-weight: 288px;
+	height: 314px;
+	background-image: url('../img/blog.jpg');
+	margin-top: 100px;
+}
+.blog-title {
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 53.32px;
+	margin-top: 32px;
+}
+.blog-text {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 42px;
+	margin-top: 24px;
+}
+.more-text {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	
+	color: rgba(255, 119, 87, 1);
+	padding-right: 20px;
+	padding-top: 24px;
+}
+
+
+/*SECTION TRIP PLANNERS*/
+
+
+.trip_planners .btn__Sign {
+	width: 186px;
+	height: 61px;
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 20px;
+	margin: 46.5px 104px 33px 30px;
+	position: relative;
+	opacity: 1;
+}
+.trip_planners .btn__Sign:before {
+	content: ' ';
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	background-color: black;
+	top: -10px;
+	left: -10px;
+	z-index: -10;
+
+}
+.trip_planners .btn__Sign:after {
+	content: ' ';
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	background-color: rgba(118, 126, 134, 1);
+	bottom: -10px;
+	right: -10px;
+	z-index: -10;
+	
+}
+.rome-foto {
+	width: 288px;
+	height: 320px;
+	background-image: url('../img/rome.png');
+	margin-top: 63px;
+}
+.trip_planners-text {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21.33px;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+.trip_planners-text span {
+	padding-left: 86px;
+}
+.trip_planners-title {
+	font-family: 'Playfair Display';
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 37.32px;
+}
+.paris-foto {
+	width: 288px;
+	height: 320px;
+	background-image: url('../img/paris.png');
+	margin-top: 63px;
+}
+.barcelona-foto {
+	width: 288px;
+	height: 320px;
+	background-image: url('../img/barcelona.png');
+	margin-top: 63px;
+}
+.budapest-foto {
+	width: 288px;
+	height: 320px;
+	background-image: url('../img/budapest.png');
+	margin-top: 63px;
+}
+
+/*SECTION DESTINATION GALLERY*/
+
+
+.destination_gallery {
+	margin-top: 183px;
+
+}
+.gallery-foto {
+	margin-top: 68px;
+	flex-direction: column;
+}
+.gallery-foto img {
+	padding-top: 32px ;
+}
+
+/*SECTION TRAVELER'S EXPERIENCES*/
+
+.content-experiences {
+	position: relative;
+	width: 288px;
+	height: 466px;
+	background-color: rgba(245, 246, 247, 1);
+	margin-top: 100px;
+	padding: 28px 20px 22px 20px;
+}
+.content-experiences .section-text {
+	line-height: 23px;
+}
+.experiences-star {
+	padding-top: 22px;
+}
+.experiences-name {
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31.99px;
+	color: rgba(118, 126, 134, 1);
+	padding-top: 22.98px;
+}
+.profession {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21.33px;
+	color: rgba(118, 126, 134, 1);
+	padding-top: 4px;
+}
+.avatar {
+	position: absolute;
+	top: -65px;
+}
+
+/*SECTION NEWSLETTER*/
+
+
+.form {
+	width: 288px;
+	height: 463px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+	margin-top: 240px;
+
+}
+.form-title {
+	flex-direction: column;
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 53.32px;
+	color: rgba(118, 126, 134, 1);
+	padding: 40px 20px 0px 20px;
+}
+h3 {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23.7px;
+	color: rgba(118, 126, 134, 1);
+	padding-top: 60px;
+	padding-left: 20px;
+}
+input {
+	width: 248px;
+	height: 72px;
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23.7px;
+	background-color: rgba(255, 232, 212, 1);
+	color: rgba(255, 119, 87, 1);
+	border-radius: 12px;
+	border: none;
+	text-align: center;
+	margin: 16px 20px 32px 20px;
+
+}
+.form-content .btn__Sign{
+	width: 248px;
+	height: 73px;
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23.7px;
+	padding: 24px 77px;
+
+}
+
+
+/*SECTION FOOTER*/
+
+.footer {
+	flex-direction: column;
+	background-color: rgba(23, 36, 50, 1);
+}
+.footer-logo-img{
+	padding-top: 80px;
+
+}
+
+.footer-logo-title {
+	padding-top: 85.97px;
+
+}
+h4 {
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16.59px;
+	color: white;
+	margin-top: 22px;
+	margin-bottom: 60px;
+	
+}
+.footer-title {
+	font-family:'Rubik', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28.44px;
+	color: white;
+	margin-top: 60px;
+	margin-bottom: 16px;
+
+}
+.footer a {
+	list-style: none;
+	text-decoration: none;
+	list-style-type: none;
+	font-family:'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21.33px;
+	margin-bottom: 12px;
+	color: white;
+}
+.footer-icon img {
+	flex-direction: row;
+	padding-right: 29px;
+}
+
+
+@media (min-width: 768px){
+	.page-header-content .title {
+		font-size: 54px;
+		line-height: 71.98px;
+	}
+	.section-title {
+		font-size: 54px;
+		line-height: 71.98px;
+		min-width: 365px;
+	}
+}
